@@ -11,6 +11,12 @@
 8. [📚 References](#-references)
 
 
+## ✍️ Author
+- Name: Shiver (Shiwoo Min)  
+- Role: Full-Stack Developer · DevOps Engineer · Founder of Artiordex  
+- Contact: artiordex@gmail.com
+
+
 ## 📝 Overview
 This repository serves as a comprehensive workspace for learning, practicing, and experimenting with the Java programming language. It covers fundamental syntax, object-oriented programming principles, standard libraries, and modern Java features such as lambdas, streams, and JavaFX. Development will be carried out using BlueJ for introductory and visual learning purposes, and Eclipse for larger, structured projects. The environment is configured with JDK 17, ensuring compatibility with modern language features and long-term support releases.
 
