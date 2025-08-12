@@ -1,18 +1,8 @@
-# java-lab
-
-## 📑 Table of Contents
-1. [📝 Overview](#-overview)
-2. [🚀 Goals](#-goals)
-3. [⚙️ Environment](#️-environment)
-4. [🗓 2-Week Learning Plan](#-2-week-learning-plan)
-5. [🗃 Folder Structure](#-folder-structure)
-6. [⏳ Project Duration & Updates](#-project-duration--updates)
-7. [📝 Daily Learning Log](#-daily-learning-log)
-8. [📚 References](#-references)
+# java-lab — Learn, Practice, and Build with Java 17
 
 
 ## ✍️ Author
-- Name: Shiver (Shiwoo Min)  
+- Name: Shiwoo Min
 - Role: Full-Stack Developer · DevOps Engineer · Founder of Artiordex  
 - Contact: artiordex@gmail.com
 
@@ -41,13 +31,13 @@ This repository serves as a comprehensive workspace for learning, practicing, an
 
 ## 🗓 2-Week Learning Plan
 
-### Week 1 - Core Syntax & OOP
+#### Week 1 - Core Syntax & OOP
 1. Basics: JDK/IDE setup, variables, types, operators, control flow
 2. Arrays, methods, classes, constructors, encapsulation
 3. OOP basics: inheritance, overloading/overriding, static/final, packages
 4. Interfaces, abstract classes, polymorphism
 
-### Week 2 - Advanced Java
+#### Week 2 - Advanced Java
 5. Exceptions: hierarchy, try-catch, custom exceptions
 6. I/O: java.io, java.nio.file, buffered streams
 7. Generics & Collections: List, Set, Map, Comparable/Comparator
@@ -179,26 +169,27 @@ Template
 
 ## 📚 References
 
-### 📖 Books
-- 이것이 자바다 (This is Java)
+#### 📖 Books
+- [이것이 자바다](https://artiordex.notion.site/22892a86c03b81e7882acec82231bb04)
 
-### 🗂 GitHub & Repositories
+#### 🗂 GitHub & Repositories
 - [GitHub Topics: learn-java](https://github.com/topics/learn-java)
 
-### 🎓 Online Courses
-- [Coursera](https://www.coursera.org/)  
-- [Udemy](https://www.udemy.com/)
+#### 🎓 Online Courses
+- [Core Java Specialization](https://www.coursera.org/specializations/core-java)
+- [Java Programming and Software Engineering Fundamentals Specialization](https://www.coursera.org/specializations/java-programming)
+- [Java Masterclass 2025](https://www.udemy.com/course/java-the-complete-java-developer-course/)
 
-### 🏛 Official Documentation
+#### 🏛 Official Documentation
 - [Java SE Documentation (v17)](https://docs.oracle.com/en/java/javase/17/)
 - [OpenJDK](https://openjdk.org/) 
 - [JDK 17 API Specification](https://docs.oracle.com/en/java/javase/17/docs/api/)
 
-### 🛠 IDE Documentation
+#### 🛠 IDE Documentation
 - [Eclipse IDE Documentation](https://help.eclipse.org/latest/index.jsp)
 - [BlueJ Official Site](https://www.bluej.org/)
 
-### 🌐 Tutorials & Community
+#### 🌐 Tutorials & Community
 - [Baeldung Java Tutorials](https://www.baeldung.com/)
 - [GeeksforGeeks Java Programming](https://www.geeksforgeeks.org/java/)
 - [Stack Overflow - Java Tag](https://stackoverflow.com/questions/tagged/java)
