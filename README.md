@@ -11,13 +11,6 @@
 This repository serves as a comprehensive workspace for learning, practicing, and experimenting with the Java programming language. It covers fundamental syntax, object-oriented programming principles, standard libraries, and modern Java features such as lambdas, streams, and JavaFX. Development will be carried out using BlueJ for introductory and visual learning purposes, and Eclipse for larger, structured projects. The environment is configured with JDK 17, ensuring compatibility with modern language features and long-term support releases.
 
 
-## ✅ It supports
--  Web UI tests (desktop & mobile browsers) with Playwright  
--  Native mobile app tests (iOS & Android) with Appium  
--  Shared utilities and configuration through Nx-managed packages  
--  CI/CD automation with environment-based test execution  
-
-
 ## 🚀 Goals
 1. Gain a structured understanding of Java's core syntax and fundamental concepts
 2. Learn and practice the latest features and enhancements introduced in **JDK 17**  
@@ -30,7 +23,7 @@ This repository serves as a comprehensive workspace for learning, practicing, an
 
 
 ## ⚙️ Environment
-- **JDK**: 17 (Oracle JDK, set `JAVA_HOME`)
+- **JDK**: 21 (Oracle JDK, set `JAVA_HOME`)
 - **IDEs**: BlueJ, Eclipse IDE 2025-06 (4.33)
 - **OS**: Windows 11 Pro
 - **Build**: `javac` / `java` by default, optional Maven/Gradle
@@ -157,12 +150,11 @@ java-lab/
 - Date: 2025-08-11 → 2025-08-22
 - Updates
 ```
-2025-08-11 - Initial project setup (Nx, Playwright, Appium, TypeScript)
-2025-08-12 - Added base Playwright web test suite
-2025-08-13 - Implemented Appium mobile test structure
-2025-08-15 - Integrated shared config and utilities
-2025-08-18 - Added GitHub Actions CI/CD pipelines
-2025-08-20 - Dockerized test environments for local & CI runs
+2025-08-11 - Initial project setup (JDK 21, Eclipse, BlueJ)
+2025-08-12 - Added basic syntax examples
+2025-08-13 - Implemented OOP (classes, inheritance, interfaces)
+2025-08-18 - Added exception handling and file I/O practice
+2025-08-20 - Integrated JavaFX sample project
 ```
 
 ## 📝 Daily Learning Log
@@ -177,59 +169,27 @@ Template
 
 ## 📚 References
 
-### 📖 Official Documentation
-- [Playwright](https://playwright.dev/docs/intro)
-- [Playwright API Testing](https://playwright.dev/docs/api-testing)
-- [Node.js](https://nodejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Python](https://www.python.org/)
-- [Selenium](https://www.selenium.dev/)
-- [Appium](https://appium.io/)
-- [Postman](https://www.postman.com/)
-- [Newman](https://github.com/postmanlabs/newman)
-- [Pytest](https://docs.pytest.org/en/stable/)
-- [Swagger (OpenAPI)](https://swagger.io/)
-- [Docker](https://docs.docker.com/)
-- [Kubernetes](https://kubernetes.io/)
-- [CI/CD Overview](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
+#### 📖 Books
+- [이것이 자바다](https://artiordex.notion.site/22892a86c03b81e7882acec82231bb04)
 
-### 🗂 GitHub & Repositories
-- [Playwright GitHub](https://github.com/microsoft/playwright?tab=readme-ov-file)
-- [TypeScript GitHub](https://github.com/microsoft/TypeScript)
-- [Opencv4nodejs GitHub](https://github.com/justadudewhohacks/opencv4nodejs)
+#### 🗂 GitHub & Repositories
+- [GitHub Topics: learn-java](https://github.com/topics/learn-java)
 
-### 🎓 Guides & Tutorials
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-- [Playwright Guide](https://playwright.dev/docs/intro)
-- [Selenium Guide](https://www.selenium.dev/documentation/)
-- [Appium Guide](https://appium.io/docs/en/latest/)
-- [OpenCV JavaScript Guide](https://docs.opencv.org/4.x/dc/de6/tutorial_js_nodejs.html)
-- [Docker Hub](https://hub.docker.com/)
-- [Cypress Docs](https://docs.cypress.io/)
-- [Puppeteer Docs](https://pptr.dev/)
-- [TestCafe Docs](https://testcafe.io/documentation/)
-- [WebdriverIO Docs](https://webdriver.io/docs/gettingstarted)
-- [Jenkins Docs](https://www.jenkins.io/doc/)
-- [GitHub Actions Docs](https://docs.github.com/en/actions)
-- [GitLab CI/CD Docs](https://docs.gitlab.com/ee/ci/)
-- [JMeter Docs](https://jmeter.apache.org/usermanual/index.html)
-- [k6 Docs](https://k6.io/docs/)
-- [Testim](https://www.testim.io/)
-- [Applitools](https://applitools.com/tutorials/)
-- [Mockaroo](https://www.mockaroo.com/)
-- [Faker.js](https://github.com/faker-js/faker)
-- [Playwright Page Object Model (POM)](https://playwright.dev/docs/pom)
-- [POM in Playwright](https://www.lambdatest.com/blog/page-object-model-playwright/)
-- [Playwright Trace Viewer](https://playwright.dev/docs/trace-viewer)
-- [Testcontainers](https://testcontainers.com/)
+#### 🎓 Online Courses
+- [Core Java Specialization](https://www.coursera.org/specializations/core-java)
+- [Java Programming and Software Engineering Fundamentals Specialization](https://www.coursera.org/specializations/java-programming)
+- [Java Masterclass 2025](https://www.udemy.com/course/java-the-complete-java-developer-course/)
 
-### 🏛 Architecture & Best Practices
-- [Monolith vs Microservices](https://martinfowler.com/articles/microservices.html)
-- [Multi-module Architecture](https://docs.gradle.org/current/userguide/multi_project_builds.html)
-- [SOLID Principles](https://khalilstemmler.com/articles/solid-principles/)
-- [Design Patterns in TypeScript](https://refactoring.guru/design-patterns/typescript)
-- [TypeScript Classes & Interfaces](https://www.typescriptlang.org/docs/handbook/2/classes.html)
-- [TypeScript Inheritance](https://www.typescriptlang.org/docs/handbook/classes.html#inheritance)
-- [TypeScript Polymorphism](https://www.typescriptlang.org/docs/handbook/2/objects.html)
-- [Dockerized Playwright Tests](https://playwright.dev/docs/ci#docker)
-- [Playwright CI/CD Integration](https://playwright.dev/docs/ci)
+#### 🏛 Official Documentation
+- [Java SE Documentation (v17)](https://docs.oracle.com/en/java/javase/17/)
+- [OpenJDK](https://openjdk.org/) 
+- [JDK 17 API Specification](https://docs.oracle.com/en/java/javase/17/docs/api/)
+
+#### 🛠 IDE Documentation
+- [Eclipse IDE Documentation](https://help.eclipse.org/latest/index.jsp)
+- [BlueJ Official Site](https://www.bluej.org/)
+
+#### 🌐 Tutorials & Community
+- [Baeldung Java Tutorials](https://www.baeldung.com/)
+- [GeeksforGeeks Java Programming](https://www.geeksforgeeks.org/java/)
+- [Stack Overflow - Java Tag](https://stackoverflow.com/questions/tagged/java)
